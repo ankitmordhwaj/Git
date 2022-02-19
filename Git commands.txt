@@ -1,0 +1,40 @@
+Git:
+-----------------------------------------------------------------------------------
+git init
+
+git add .
+
+git commit -m "comment"
+
+git log      #to see logs
+
+git remote add origin https.........
+
+git remote -v      #to check origin linnk
+
+git push -u origin master
+
+ssh authentation:
+ssh-keygen -t rsa -C mordhwaj.ank@gmail.com
+
+
+Stash:
+------
+git stash save "some comment"
+git stash list		#to list all stash
+git stash apply @{0}
+
+
+Reset: (locally)
+------
+git log --oneline
+git reset <commit-id>
+
+
+
+git checkout -b branchname commitid  #create branch from particular commit
+
+
+Revert:
+------
+git revert <commit-id>
