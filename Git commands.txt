@@ -41,3 +41,11 @@ git clone -b branch_name https://github.com/ankitmordhwaj/repo.git
 Revert:
 ------
 git revert <commit-id>
+
+------------------
+
+create new branch
+	git checkout -b branchname
+	
+change branch
+	git checkout branchname
