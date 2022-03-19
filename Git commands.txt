@@ -34,6 +34,9 @@ git reset <commit-id>
 
 git checkout -b branchname commitid  #create branch from particular commit
 
+Clone From a branch:
+git clone -b branch_name https://github.com/ankitmordhwaj/repo.git
+
 
 Revert:
 ------
